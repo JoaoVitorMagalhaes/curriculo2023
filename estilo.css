@@ -3,7 +3,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: navy;
+    background-color: transparent;
     border-radius: 15px 15px 15px 15px;
   }
 
@@ -50,4 +50,9 @@ header{
   }
   .icons{
     text-align: center;
+  }
+  .content{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    color: black;
   }
