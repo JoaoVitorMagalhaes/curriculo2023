@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: navy;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .buttons{
+    display: flex;
+    margin-left: 64px;
+  }
+
+  .buttons button{
+    margin-left: 0.5rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .styled-image{
+    border: 5px solid transparent;
+    border-radius: 50%;
+    width: 122px;
+    height: 122px;
+    margin-top: 42px;
+  }
+
+  body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/11/72/63/360_F_311726370_WUopUflJYzZWTiIPdnP2yZ3xGaNABHZY.jpg);
+    background-size: 50%;
+  }
+  .titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  .cabecalho{
+    text-align: center;
+  }
+
+  .icons img{
+    padding: 20px;
+  }
+  .icons{
+    text-align: center;
+  }
