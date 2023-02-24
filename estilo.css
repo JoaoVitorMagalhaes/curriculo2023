@@ -29,7 +29,7 @@ header{
     border-radius: 50%;
     width: 122px;
     height: 122px;
-    margin-top: 42px;
+    margin-top: 0px;
   }
 
   body{
@@ -43,6 +43,8 @@ header{
   }
   .cabecalho{
     text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(4,4,50,1) 55%, rgba(7,10,93,0) 95%);
   }
 
   .icons img{
@@ -55,4 +57,28 @@ header{
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     color: black;
+    margin: 36px;
   }
+  .tittle{
+    padding: 16px;
+    font-weight: bold;
+  }
+  .text{
+    margin-top: -30px;
+    padding: 16px;
+    font-size: 20px;
+  }
+  .galeria{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    margin: 36px;
+  }
+  .galeria img{
+    margin: 20px;
+  }
+  .imagem{
+    border-radius: 36px 36px 36px 36px;
+  }
+  
+
