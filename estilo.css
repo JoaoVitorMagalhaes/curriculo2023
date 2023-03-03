@@ -1,3 +1,24 @@
+
+/*
+RESETAR TODO PADDING E MARGIN DA PÁG
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+*/
+
+/* 
+PARA CHAMAR UM COR NO CODIGO DEFINA NA VARIAVEL
+:root {
+  --cor-primaria: ;
+  --cor-secundaria: ;
+  --fundo: ;
+  --texto-primario: ;
+  --texto-secundario: ;
+}
+*/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -24,6 +45,11 @@ header{
     font-weight: bold;
   }
   
+  .buttons button:hover{
+    color: black;
+    background-color: white;
+  }
+
   .styled-image{
     border: 5px solid transparent;
     border-radius: 50%;
@@ -53,6 +79,7 @@ header{
   .icons{
     text-align: center;
   }
+
   .content{
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -60,13 +87,14 @@ header{
     margin: 36px;
   }
   .tittle{
-    padding: 16px;
+    padding: 10px;
     font-weight: bold;
   }
   .text{
     margin-top: -30px;
     padding: 16px;
     font-size: 20px;
+    line-height: 1.5;
   }
   .galeria{
     background-color: white;
@@ -74,11 +102,45 @@ header{
     color: black;
     margin: 36px;
   }
-  .galeria img{
-    margin: 20px;
+
+  .teste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
   }
+
   .imagem{
     border-radius: 36px 36px 36px 36px;
+    padding: 05px;
   }
   
+  .final {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
 
+  .rodape{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title2{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .title2 h1{
+    font-size: 13px;
+    color: rgb(68, 68, 68);
+  }
